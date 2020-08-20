@@ -1,0 +1,440 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:300,400,700&display=swap);
+.sign-up-form {
+  background-color: #1c252e;
+  max-width: calc(100% - 20px);
+  width: 34rem;
+  margin: auto;
+  margin-top: 5%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 6px;
+  font-family: "Exo", sans-serif;
+}
+
+#signUpFree {
+  color: #eee;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+  display: block;
+  text-align: center;
+  font-size: 1.325em;
+}
+
+#getStarted {
+  font: inherit;
+  box-sizing: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5pt;
+  color: #fafafa;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  background-color: #1ea575;
+}
+
+#getStarted:hover {
+  transition: background 0.2s ease-in-out;
+  background-color: #18835e;
+}
+
+#inputs-section {
+  color: #90a5a1;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  vertical-align: baseline;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  font: inherit;
+  box-sizing: inherit;
+}
+
+input {
+  font: inherit;
+  box-sizing: inherit;
+  display: block;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  border-left-width: 0.75pt;
+  border-bottom-width: 0.75pt;
+  border-right-width: 0.75pt;
+  border-top-width: 0.75pt;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-left-color: #90a5a1;
+  border-bottom-color: #90a5a1;
+  border-right-color: #90a5a1;
+  border-top-color: #90a5a1;
+  border-image: none;
+  color: #90a5a1;
+  grid-column-end: span 1;
+  margin-bottom: 2rem;
+}
+
+#first {
+  width: 100%;
+  color: white;
+}
+
+#last {
+  width: 100%;
+  margin-left: 18%;
+  color: white;
+}
+
+#name {
+  color: #1c252e;
+  font-weight: bold;
+  font-size: 1.4em;
+  transition: all 0.1s ease-in-out;
+}
+
+#name:hover {
+  color: #1c252e;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.gecko-signup__tabs {
+  color: #eee;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  vertical-align: baseline;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  font: inherit;
+  box-sizing: inherit;
+  display: flex;
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-right: 0;
+  margin-top: 0;
+  width: 103%;
+}
+
+#gecko-signup {
+  font: inherit;
+  background-color: #344048;
+  box-sizing: inherit;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-weight: 300;
+  font-size: inherit;
+  text-align: center;
+  color: #fafafa;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  transition: background 0.2s ease-in-out;
+  cursor: default;
+}
+
+#gecko-signup:hover {
+  transition: background 0.2s ease-in-out;
+  background-color: #18835e;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1ea575 !important;
+}
+
+#gecko-login {
+  font: inherit;
+  box-sizing: inherit;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-weight: 300;
+  font-size: inherit;
+  text-align: center;
+  color: #fafafa;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  background-color: #344048;
+}
+
+#gecko-login:hover {
+  transition: background 0.2s ease-in-out;
+  background-color: #18835e;
+}
+
+.cards {
+  font-family: "Exo", sans-serif;
+}
+
+.cards h2 {
+  font-size: 2em !important;
+  font-weight: lighter;
+  padding-left: 0.6rem;
+}
+
+.allProducts {
+  display: "flex";
+  flex-direction: "row";
+}
+
+Card {
+  flex: 1;
+}
+
+.productDiv {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+  color: #1ea575;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 3pt;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2.25pt 0.75pc rgba(28, 37, 46, 0.05);
+}
+
+.productImage {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.productImage:hover {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.card_text_center {
+  overflow: hidden;
+}
+
+.overflow {
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#price {
+  width: fit-content;
+  vertical-align: auto;
+  color: #1ea575;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-top: 0;
+  vertical-align: baseline;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-left-color: currentColor;
+  border-bottom-color: currentColor;
+  border-right-color: currentColor;
+  border-top-color: currentColor;
+  border-image: none;
+  font: inherit;
+  box-sizing: inherit;
+  padding-left: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.6rem;
+  font-size: 1.2rem;
+  border-radius: 0.0625in;
+  box-shadow: 0 0 0 2px #1ea575;
+  transition: all 0.1s ease-in-out;
+}
+
+#price:hover {
+  background-color: rgba(30, 165, 117, 0.1);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.flex-grid {
+  display: inline-grid;
+  height: auto;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 350px;
+  margin: auto;
+}
+
+.cards {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 24%;
+}
+
+.card-body {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+body {
+  background-color: #eee;
+}
