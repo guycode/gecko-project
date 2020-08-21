@@ -1,6 +1,7 @@
 ## Gecko test app
  This was a great test and eye opener at the same time. I enjoyed it very much. please find my working demo at:
   https://guycode.github.io/gecko-project/
+  **please  note that github pages may be a little behind on updating what is on the current master branch if changes were made less than 24 hours prior. 
 
 ## Issues
 
