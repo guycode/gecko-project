@@ -6,7 +6,6 @@ export default class Login extends React.Component {
 
 	render() {
 		const onClick = () => {
-		//	this.props.login();
 			console.log('rich');
 		}
 		const mainSignUp = () => {
@@ -26,20 +25,18 @@ export default class Login extends React.Component {
 								<p id="signUpFree">Welcome Back</p>
 							</td>
 						</tr>
-						<div id="inputs-section">
 						
-						<div class="field-wrap">
-           					<label>Email Address<span class="req">*</span></label>
-           						<input type="email"required autocomplete="off"/>
-         				</div>
-	   				 	<div class="field-wrap">
-         					   <label>Password<span class="req">*</span></label>
-         				   			<input type="password"required autocomplete="off"/>
-         				</div>
+						<tr>
+							<td colSpan="2"><input placeholder="Email Address*" /></td>
+						</tr>
+						<tr>
+							<td colSpan="2"><input placeholder="Set A Password*" /></td>
+						</tr>
+						
 						<tr>
 							<td colSpan="2"><input className="getStarted" type="submit" value="Log In" onClick={onClick}/></td>
 						</tr>
-						</div>
+						
 				</tbody>
 			</table>
 		</div>
