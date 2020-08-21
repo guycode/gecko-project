@@ -1,12 +1,12 @@
 ## Gecko test app
- This was a great test and eye opener at the same time. I enjoyed it very much. 
+ This was a great test and eye opener at the same time. I enjoyed it very much. please find my working demo at:
+  https://guycode.github.io/gecko-project/
 
 ## Issues
-1- I believe it has something to do with webpack but I wasn't able to get the working version deployed to github pages. I tried a few different ways, but in the end was taking too much time. To run the app please clone the repo to your machine, install, and npm run deploy
 
-2- Validation - I wasn't able to integrate a check for the inputs, so they currently just logging in and work even if they are empty
+1- Validation - I wasn't able to integrate a check for the inputs, so they currently just logging in and work even if they are empty
 
-3- Need to find alternative to using fetch for making the API call. It works as it is, but fetch is not compatible with all browswers so not a long term solution.
+2- Need to find alternative to using fetch for making the API call. It works as it is, but fetch is not compatible with all browswers so not a long term solution.
 
 ## Goal
 

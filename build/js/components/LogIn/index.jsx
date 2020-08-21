@@ -37,7 +37,7 @@ export default class Login extends React.Component {
          				   			<input type="password"required autocomplete="off"/>
          				</div>
 						<tr>
-							<td colSpan="2"><input id="getStarted" type="submit" value="Log Me In" onClick={onClick}/></td>
+							<td colSpan="2"><input className="getStarted" type="submit" value="Log In" onClick={onClick}/></td>
 						</tr>
 						</div>
 				</tbody>

@@ -93,7 +93,7 @@ export default class SignUp extends React.Component {
 							<td colSpan="2"><input placeholder="Set A Password*" /></td>
 						</tr>
 						<tr>
-							<td colSpan="2"><input id="getStarted" type="submit" value="Get Started" onClick={onClick}/></td>
+							<td colSpan="2"><input className="getStarted" type="submit" value="Get Started" onClick={onClick}/></td>
 						</tr>
 					</tbody>
 				</table>
